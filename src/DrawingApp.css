@@ -1,0 +1,28 @@
+.drawing-container {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 1px solid #000;
+  }
+  
+  .brush {
+    position: absolute;
+    background-color: black; /* Default brush color */
+    width: 5px; /* Default brush width */
+    height: 5px;
+    border-radius: 50%;
+    pointer-events: none; /* Allow pointer events to pass through the brush */
+  }
+  .drawing {
+    border-radius: 50%;
+    position: absolute;
+    pointer-events: none; /* Allow pointer events to go through the drawing elements */
+  }
+  .dot {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: black;
+    border-radius: 50%;
+  }
+  
